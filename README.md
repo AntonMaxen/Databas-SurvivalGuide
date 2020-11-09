@@ -25,6 +25,11 @@ services:
       MYSQL_ROOT_PASSWORD: password
       MYSQL_DATABASE: carparts
 ```
+## MySQL
+Connect to mysql database:
+```sh
+mysql -u *username* -p
+```
 ## Alembic
 Initialise Alembic:
 ```sh
