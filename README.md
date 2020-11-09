@@ -25,3 +25,24 @@ services:
       MYSQL_ROOT_PASSWORD: password
       MYSQL_DATABASE: carparts
 ```
+## Alembic
+Initialise Alembic:
+```sh
+alembic init migrations
+```
+Create a new revision with description:
+```sh
+alembic revision -m 'description'
+```
+Run revisions:
+```sh
+alembic upgrade head
+```
+Downgrade to given revision Id:
+```sh
+alembic downgrade *revisionId*
+```
+Check revision history:
+```sh
+alembic history
+```
