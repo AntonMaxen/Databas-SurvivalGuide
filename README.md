@@ -25,6 +25,10 @@ services:
       MYSQL_ROOT_PASSWORD: password
       MYSQL_DATABASE: carparts
 ```
+Show current running containers:
+```sh
+docker ps
+```
 ## MySQL
 Connect to mysql database:
 ```sh
