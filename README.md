@@ -39,7 +39,7 @@ Run revisions:
 alembic upgrade head
 ```
 Downgrade to given revision Id:
-```bash
+```sh
 alembic downgrade *revisionId*
 ```
 Check revision history:
