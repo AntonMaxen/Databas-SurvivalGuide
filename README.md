@@ -29,6 +29,14 @@ Show current running containers:
 ```sh
 docker ps
 ```
+Stop a running container:
+```sh
+docker stop *containerId/containerName*
+```
+Remove a container:
+```sh
+docker container rm *contianerId*
+```
 ## MySQL
 Connect to mysql database:
 ```sh
