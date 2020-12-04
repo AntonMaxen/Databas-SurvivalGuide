@@ -63,3 +63,8 @@ Check revision history:
 ```sh
 alembic history
 ```
+## GIT
+get local version of repo branch
+```
+git checkout --track origin/*branchname*
+```
