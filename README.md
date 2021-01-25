@@ -1,5 +1,12 @@
 # Databas-SurvivalGuide
 
+## PYTHON-ENV
+Change pythonpath:
+```sh
+cd *to the dir you want as pythonpath*
+export PYTHONPATH="$PWD"
+```
+
 ## Docker
 Connect to docker-container:
 ```sh
